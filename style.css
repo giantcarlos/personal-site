@@ -80,3 +80,12 @@ iframe {
         height: 150px;
     }
   }
+  @media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    nav a {
+        color: white;
+    }
+}
