@@ -22,7 +22,7 @@ img {
     width: 100%;
     height: auto;
 }
-photo img {
+picture img {
     width: 500px;
     display: block;
     margin-top: 100px;
@@ -44,7 +44,7 @@ hr {
     width: 500px;
     color: black;
 }
-socials img {
+icons img {
     width: 100px;
     margin-left: 24px;
     margin-right: 24px;
@@ -61,7 +61,7 @@ iframe {
     nav a {
         font-size: 16px;
     }
-    photo img {
+    picture img {
         width: 400px;
     }
     ul {
@@ -71,7 +71,7 @@ iframe {
         font-size: 16px;
         max-width: 625px;
     }
-    socials img {
+    icons img {
       width: 40px;
       margin-left: 12px;
       margin-right: 12px;
