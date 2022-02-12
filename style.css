@@ -29,6 +29,7 @@ picture img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 70px;
+    animation: transitionIn 0.75s;
 }
 ul {
     margin-top: 150px;
@@ -40,6 +41,7 @@ p {
     right: 0;
     margin: 0 auto;
     max-width: 800px;
+    animation: transitionIn 0.75s;
 }
 hr {
     width: 500px;
@@ -49,10 +51,12 @@ icons img {
     width: 100px;
     margin-left: 24px;
     margin-right: 24px;
+    animation: transitionIn 0.75s;
 }
 iframe {
     max-width: 750px;
     height: 220px;
+    animation: transitionIn 0.75s;
 }
 @media only screen and (min-device-width: 500px) {
     h1 {
@@ -85,12 +89,22 @@ iframe {
         height: 130px;
     }
   }
-  @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     body {
         background-color: black;
         color: white;
     }
     nav a {
         color: white;
+    }
+}
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
     }
 }
