@@ -1,12 +1,11 @@
 body {
-    color: #444444;
+    color: #333333;
     background: white;
     text-align: center;
     font-family: bookman;
     margin-bottom: 70px;
   }
 header {
-    color:#242424;
     font-size: 28px;
 }
 h1 {
@@ -15,7 +14,7 @@ h1 {
 }
 nav a {
     text-decoration: none;
-    color: #444444;
+    color: #333333;
     font-size: 36px;
     margin-left: 14px;
     margin-right: 14px;
@@ -37,7 +36,6 @@ ul {
     margin-top: 150px;
 }
 p {
-    color: #444444;
     font-size: 36px;
     line-height: 1.5;
     left: 0;
@@ -94,11 +92,11 @@ iframe {
   }
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: black;
-        color: white;
+        background-color: rgb(24, 24, 24);
+        color: rgb(224, 224, 224);
     }
     nav a {
-        color: white;
+        color: rgb(224, 224, 224);
     }
 }
 @keyframes transitionIn {
