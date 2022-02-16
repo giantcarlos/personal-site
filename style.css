@@ -48,7 +48,7 @@ hr {
     width: 500px;
     color: black;
 }
-icons img {
+footer img {
     width: 100px;
     margin-left: 24px;
     margin-right: 24px;
@@ -80,7 +80,7 @@ iframe {
         line-height: 1.4;
         max-width: 600px;
     }
-    icons img {
+    footer img {
       width: 40px;
       margin-left: 12px;
       margin-right: 12px;
